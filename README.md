@@ -21,7 +21,7 @@ package main
 import (
   "fmt"
 
-  workers "github.com/digitalocean/go-workers2"
+  workers "github.com/matheus-rosa/go-workers2"
 )
 
 func myJob(message *workers.Msg) error {
