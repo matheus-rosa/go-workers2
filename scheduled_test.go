@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/digitalocean/go-workers2/storage"
 	"github.com/go-redis/redis/v8"
+	"github.com/matheus-rosa/go-workers2/storage"
 	"github.com/stretchr/testify/assert"
 )
 
